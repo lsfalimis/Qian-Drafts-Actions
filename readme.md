@@ -18,17 +18,17 @@ Log in Dropbox and search in App Store | app store_s | drafts://x-callback-url/c
 
 ##Tab 3
 
-Name | My favour | URL | Note
---- | --- | --- | ---
-Decode in TextTool, set to clipboard and return | decode | texttool://x-callback-url/transform?text=[[selection]]&method=decode&x-success={{drafts://}} | 
-Encode in TextTool, set to clipboard and return | encode | texttool://x-callback-url/transform?text=[[selection]]&method=encode&x-success={{drafts://}} | 
-Send to Command-C's 1st device | ⌘c | command-c://x-callback-url/copyText?text=[[selection]]&deviceIndex=0&x-success={{drafts://}} | Note: set up Command-C *properly*
+Name                                            | My favour | URL                                                                                          | Note
+---                                             | ---       | ---                                                                                          | ---
+Decode in TextTool, set to clipboard and return | decode    | texttool://x-callback-url/transform?text=[[selection]]&method=decode&x-success={{drafts://}} |
+Encode in TextTool, set to clipboard and return | encode    | texttool://x-callback-url/transform?text=[[selection]]&method=encode&x-success={{drafts://}} |
+Send to Command-C's 1st device                  | ⌘c        | command-c://x-callback-url/copyText?text=[[selection]]&deviceIndex=0&x-success={{drafts://}} | Note: set up Command-C *properly*
 
 ##Tab 4
 
-Name | My favour | URL | Note
---- | --- | --- | ---
-Lookup in Eudic and can return | d | eudic://dict/[[selection]]?jumpback=drafts: | 
+Name                           | My favour | URL                                         | Note
+---                            | ---       | ---                                         | ---
+Lookup in Eudic and can return | d         | eudic://dict/[[selection]]?jumpback=drafts: |
 
 ##Hidden
 
