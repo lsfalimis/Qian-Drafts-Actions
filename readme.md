@@ -20,8 +20,8 @@ Log in Dropbox and search in App Store | app store_s | drafts://x-callback-url/c
 
 Name | My favour | URL | Note
 --- | --- | --- | ---
-Decode in TextTool, set to clipboard and return | texttool://x-callback-url/transform?text=[[selection]]&method=decode&x-success={{drafts://}} | 
-Encode in TextTool, set to clipboard and return | texttool://x-callback-url/transform?text=[[selection]]&method=encode&x-success={{drafts://}} | 
+Decode in TextTool, set to clipboard and return | decode | texttool://x-callback-url/transform?text=[[selection]]&method=decode&x-success={{drafts://}} | 
+Encode in TextTool, set to clipboard and return | encode | texttool://x-callback-url/transform?text=[[selection]]&method=encode&x-success={{drafts://}} | 
 Send to Command-C's 1st device | ⌘c | command-c://x-callback-url/copyText?text=[[selection]]&deviceIndex=0&x-success={{drafts://}} | Note: set up Command-C *properly*
 
 ##Tab 4
@@ -34,6 +34,6 @@ Lookup in Eudic and can return | d | eudic://dict/[[selection]]?jumpback=drafts:
 
 Name | My favour | Import URL | Note
 --- | --- | --- | ---
-Append to DROPBOX/Log/log-search.txt | log-search | drafts://x-callback-url/import_action?type=dropbox&name=log-search&path=%2FLog%2F&filenametype=2&filename=log-search&ext=txt&writetype=2&template=%5B%5Btime%5D%5D%20%5B%5Bdraft%5D%5D | Make sure: link Drafts.app to Dropbox
-Append to DROPBOX/Log/log-lucky.txt | log-lucky | drafts://x-callback-url/import_action?type=dropbox&name=log-lucky&path=%2FLog%2F&filenametype=2&filename=log-lucky&ext=txt&writetype=2&template=%5B%5Btime%5D%5D%20%5B%5Bdraft%5D%5D | 
-Append to DROPBOX/Log/log-appstore.txt | log-appstore | drafts://x-callback-url/import_action?type=dropbox&name=log-appstore&path=%2FLog%2F&filenametype=2&filename=log-appstore&ext=txt&writetype=2&template=%5B%5Btime%5D%5D%20%5B%5Bdraft%5D%5D | 
+Append to DROPBOX/Log/log-search.txt | log-search | <drafts://x-callback-url/import_action?type=dropbox&name=log-search&path=%2FLog%2F&filenametype=2&filename=log-search&ext=txt&writetype=2&template=%5B%5Btime%5D%5D%20%5B%5Bdraft%5D%5D> | Make sure: link Drafts.app to Dropbox
+Append to DROPBOX/Log/log-lucky.txt | log-lucky | <drafts://x-callback-url/import_action?type=dropbox&name=log-lucky&path=%2FLog%2F&filenametype=2&filename=log-lucky&ext=txt&writetype=2&template=%5B%5Btime%5D%5D%20%5B%5Bdraft%5D%5D> | 
+Append to DROPBOX/Log/log-appstore.txt | log-appstore | <drafts://x-callback-url/import_action?type=dropbox&name=log-appstore&path=%2FLog%2F&filenametype=2&filename=log-appstore&ext=txt&writetype=2&template=%5B%5Btime%5D%5D%20%5B%5Bdraft%5D%5D> | 
